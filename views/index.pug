@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    div.center-horizontal
+        img(src="https://nem.io/wp-content/themes/nem/img/logo-nem.svg" width="100")
+        h1(align="center") Tests demo
+        h4(align="center") This demo demonstrates how you can use NEM in testing people
+    #wallet-input.center-horizontal
+        p(align="center") Input your test wallet address
+        input(placeholder="Wallet address")
+        button Submit
+    #wallet-address-container.center-horizontal.hide
+        p(align="center")
+    #test-container.center-horizontal.hide
+        p(align="center") Pass the test to obtain a certificate
+
